@@ -19,7 +19,7 @@ export interface BaseFormSchema extends BaseFormBlock {
 }
 
 export interface BaseFormGroupAttrs {
-    desc?: string
+    title?: string
     value?: string
     placeholder?: string
 }

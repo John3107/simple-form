@@ -41,7 +41,7 @@ const validateField = () => {
             :invalid="!valid && touched"
             v-bind="attrs"
             v-model.trim="model">
-            {{ attrs.desc }}
+            {{ attrs.title }}
         </Component>
         <div v-if="error && touched" class="base-form-group__error">
             {{ error }}

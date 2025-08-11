@@ -68,7 +68,7 @@ const schema = reactive([
                 component: Checkbox,
                 name: 'action.create',
                 attrs: {
-                    desc: 'Створення'
+					title: 'Створення'
                 },
                 groupSize: 'half'
             },
@@ -76,7 +76,7 @@ const schema = reactive([
                 component: Checkbox,
                 name: 'action.update',
                 attrs: {
-                    desc: 'Оновлення'
+					title: 'Оновлення'
                 },
                 groupSize: 'half'
             },
@@ -84,7 +84,7 @@ const schema = reactive([
                 component: Checkbox,
                 name: 'action.move',
                 attrs: {
-                    desc: 'Переміщення'
+					title: 'Переміщення'
                 },
                 groupSize: 'half'
             },
@@ -92,7 +92,7 @@ const schema = reactive([
                 component: Checkbox,
                 name: 'action.delete',
                 attrs: {
-                    desc: 'Видалення'
+					title: 'Видалення'
                 },
                 groupSize: 'half'
             }
@@ -107,7 +107,7 @@ const schema = reactive([
                 component: Radio,
                 name: 'main_page',
                 attrs: {
-                    desc: 'Склад',
+					title: 'Склад',
                     value: UserSettingMainPageType.STORE
                 }
             },
@@ -115,7 +115,7 @@ const schema = reactive([
                 component: Radio,
                 name: 'main_page',
                 attrs: {
-                    desc: 'Категорії',
+					title: 'Категорії',
                     value: UserSettingMainPageType.CATEGORY
                 }
             },
@@ -123,7 +123,7 @@ const schema = reactive([
                 component: Radio,
                 name: 'main_page',
                 attrs: {
-                    desc: 'Характеристики',
+					title: 'Характеристики',
                     value: UserSettingMainPageType.CHARACTERISTIC
                 }
             },
@@ -131,7 +131,7 @@ const schema = reactive([
                 component: Radio,
                 name: 'main_page',
                 attrs: {
-                    desc: 'Продукти',
+					title: 'Продукти',
                     value: UserSettingMainPageType.PRODUCT
                 }
             },
@@ -139,7 +139,7 @@ const schema = reactive([
                 component: Radio,
                 name: 'main_page',
                 attrs: {
-                    desc: 'Операції',
+					title: 'Операції',
                     value: UserSettingMainPageType.OPERATION
                 }
             }
@@ -153,7 +153,7 @@ const schema = reactive([
                 component: Checkbox,
                 name: 'second_shift',
                 attrs: {
-                    desc: 'Робітник другої зміни'
+					title: 'Робітник другої зміни'
                 }
             }
         ]
